@@ -28,3 +28,4 @@ vignettes/*.pdf
 .Renviron
 diversity.Rproj
 .DS_Store
+big_data
