@@ -21,4 +21,4 @@ derive_diversity <- function(species){
 library(raster)
 library(tidyverse)
 oak_diversity <- "Quercus" %>% get_species_list() %>% derive_diversity()
-print(oak_diversity)
+plot(oak_diversity)
